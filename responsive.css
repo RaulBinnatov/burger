@@ -1,0 +1,149 @@
+@media screen and (max-width:1270px) {
+    .main {
+        display: grid;
+        max-width: 1250px;
+        gap: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .main_right{
+        margin-top: 100px;
+    }
+    .card_buy{
+        margin-left: auto;
+        margin-right: auto;
+    }
+.navigator {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0;
+    width: 30%;
+    text-align: center;
+    background-color: #333333e7;
+    height: 75vh;
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    top: -90vh;
+}
+#resp_check:checked ~ .navigator{
+    top: 0;
+}
+#resp_icon{
+    display: block;
+}
+}
+@media screen and (max-width:1055px) {
+    .footer{
+        gap: 100px;
+    }
+    
+
+}
+@media screen and (max-width:900px) {
+    .main_right {
+        max-width: 600px;
+    }
+}
+@media screen and (max-width:740px) {
+    .logo2 {
+        gap: 30px;
+    }
+    .burger img{
+        width: 250px;
+    }
+    .burger_text {
+        max-width: 300px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .svg2{
+        display: flex;
+        margin-top: 50px;
+    }
+    .svg2 svg{
+       width: 150px;
+       height: 40px;
+       margin-right: 0;
+    }
+    #e63{
+        width: 50px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .svg {
+        gap: 0;
+    
+    }
+    .footer{
+        max-width: 550px;
+    gap: 30px;
+    }
+    .footer_right{
+             gap: 20px ;
+    }
+    .burgersss h2{
+        margin-left: 230px;
+        margin-top: 50px;
+        }
+}
+
+@media screen and (max-width:600px) {
+    .main_right {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo2 {
+        flex-direction: column;
+        gap: 0   ;
+        max-width: 250px;
+    }
+    .burger img{
+        height: 150px;
+        width: 150px;
+    }
+    .burger_text {
+        max-width: 300px;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .burger_text p {
+        margin-top:10px;
+
+    }
+    .burger_text h1{
+        font-size: 25px;
+    }
+    .footer_right{
+        flex-direction: column;
+    }
+    .svg2 svg{
+        width: 100px;
+     }
+     #e63{
+         width: 50px;
+         height: 30px;
+         margin-top: 5px;
+     }
+     .footer{
+        max-width: 350px;
+    gap: 20px;
+    }
+    .footer_p{
+        max-width: 350px;
+        /* margin-left: 30px; */
+    }
+}
+
+@media screen and (max-width:460px) {
+    .burgersss h2{
+        margin-left: 130px;
+        }
+        .footer_p p{
+            margin-left: 40px;
+        }
+}
+
+
